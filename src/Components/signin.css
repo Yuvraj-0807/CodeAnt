@@ -1,0 +1,177 @@
+.photo1{
+    height: 304px;
+    width: 342px;
+    position: absolute;
+    left: 12%;
+    top: 115px;
+}
+
+.photo2{
+    width: 234px;
+    height: 209px;
+    opacity: 0.4px;
+    position: absolute;
+    bottom: 50px;
+    left: 10px;
+}
+
+.small-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.left{
+    width: 720px;
+    height: 960px;
+}
+
+.right{
+    width:  672px;
+    height:  276px;
+    padding: 36px 24px 36px 24px;
+    gap: 20px;
+    border: 0px 0px 1px 0px;
+    opacity: 0px;
+
+}
+
+.frame989{
+    display: flex;
+}
+
+.logotext{
+    display: flex;
+    position: absolute;
+    width: 201.38px;
+    height: 40px;
+}
+
+.logotext p{
+    position: relative;
+    bottom: 25px;
+    left: 10px;
+    font-size: 28px;
+}
+
+.logo{
+    width: 35.62px;
+    height: 40px;
+    color: #181D27;
+    border: 0.09px solid #ffffff;
+}
+
+.calender{
+    width: 672px;
+    height: 602.34px;
+    border: 1px;
+    border-radius: xl;
+    display: flex;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    border: 1px;
+    position: relative;
+    top: 56px;
+    right: 24px;
+    bottom: 36px;
+    left: 134px;
+    gap: 20px;
+}
+
+.heading{
+    width: 368px;
+    height: 48px;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 108px;
+    position: relative;
+    right: 80px;
+}
+
+.tabs{
+    width: 544px;
+    height: 60px;
+    border-radius: 10px;
+    border: 1px;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    position: relative;
+    top: 81px;
+    right: 150px;
+}
+
+.tabs button{
+    width: 311px;
+    height: 60px;
+    border: 2px;
+    border-radius: 8px;
+    padding-top: 16px;
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-bottom: 16px;
+    /* background-color: blue; */
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+    
+}
+
+.saas{
+    background-color: blue;
+    color: #ffffff;
+}
+
+.selfhosted{
+    color: black;
+}
+
+.button{
+    display: flex;
+    gap: 25px;
+    position: relative;
+    top: 100px;
+    right: 150px;
+    border: 1px solid #D8DAE5;
+    justify-content: center;
+}
+
+.github img{
+    width: 25px;
+    height: 25px;
+    padding: 0.43px 0.5px 1.15px 0.5px;
+    position: relative;
+    top: 15px;
+
+}
+
+.footer-text{
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    width: 672px;
+    height: 24px;
+    gap: 0px;
+    opacity: 0px;
+    position: absolute;
+    bottom: 18px;
+    right: 110px;
+}
+
+.footer-text span{
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
